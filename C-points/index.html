@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/logo-F-icon.png">
+    <script src="https://kit.fontawesome.com/049c2c6974.js" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Code Points</title>
+
+
+
+    <!-- TOGGLE NAVBAR-->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  
+     <script>
+         $(document).ready(function(){
+           $('#icon').click(function(){
+              $('ul').toggleClass('show')
+           });
+         });
+     </script>
+</head>
+<body>
+    
+    <nav>
+        <a href="#"><img src="./images/logo-noBg.png" alt="logo"></a>
+
+        <ul id="nav-ul">
+            <li>Home</li>
+            <li>Offers</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+
+        <label id="icon">
+            <i id="ic2" onclick="reChange('ic2')" class="fas fa-bars"></i>
+        </label>
+    </nav>
+
+    <section class="home">
+
+        <div class="home-text">
+        <h2><span>Improve your</span> <br/>business with <br/>one click</h2>
+        <button>Try now</button>
+        </div>
+       
+        <div class="img-div">
+          <img src="./images/pc-noBg.png" alt="image">
+        </div>
+    </section>
+
+    <section class="offers">
+        <h2>OFFERS</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="https://dekanttekening.nl/wp-content/uploads/2019/07/1STVFMTBJY-741x486.jpg">
+                    <h3>We will create a website</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <div class="price">
+                        <p>PRICE:</p>
+                        <h5>0$</h5>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://dekanttekening.nl/wp-content/uploads/2019/07/1STVFMTBJY-741x486.jpg">
+                    <h3>We will create a website</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <div class="price">
+                        <p>PRICE:</p>
+                        <h5>0$</h5>
+                    </div>
+                </div>
+
+                <div class="card">
+                        <img src="https://dekanttekening.nl/wp-content/uploads/2019/07/1STVFMTBJY-741x486.jpg">
+                        <h3>We will create a website</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                        <div class="price">
+                            <p>PRICE:</p>
+                            <h5>0$</h5>
+                        </div>     
+                </div>
+            </div>
+
+    </section>
+
+
+    <section class="about-us">
+        <h2>ABOUT US</h2>
+        <div class="about-text">
+            <p>We are a software development company and we provide web services with very
+                reasonable prices and very quality services.
+                We provide these services:<br/>
+                <b>1. </b>Web design<br/>
+                <b>2. </b>Web development<br/>
+                <b>3. </b>Responsive web design<br/>
+                <b>4. </b>Psd to Html
+            </p>
+        
+            <img src="./images/about-bg.png" alt="logo">
+        </div>
+    </section>
+
+
+    <section class="footer">
+         <div class="logo-text">
+            <img src="./images/LOGO.png">
+         </div>
+         <div class="contact">
+             <h3>Contact</h3>
+             <input id="name" type="text" placeholder="Name">
+             <input id="email" type="email" placeholder="Email"><br/>
+             <input id="message" type="text" placeholder="Message"><br/>
+             <button id="submit" type="submit">Send</button>
+         </div>
+         <i class="fab fa-facebook-f"></i>
+    </section>
+
+    <footer>
+        <p>© Designed by Code Points</p>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
